@@ -1,11 +1,30 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import "../pages/style.css";
+import Hero from "../assets/her-im1.jpg";
+import Hero2 from "../assets/her-im1.jpg";
+import Logo from "../assets/Personal-Logo.png";
+import Main from "../pages/main.astro";
+import Nav from "../pages/nav.astro";
+import "../assets/cafe/cafe-T-shirt-mockup.png";
+import CAFELOGO from "../assets/cafe/CAFE-LOGO-WHITE.png";
+import "../assets/farm/wallpaper.avif";
+import "../assets/farm/farm-logo.-Sticker.png";
+import Footer from "../pages/footer.astro";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../pages/scripts/script.js"></script>
+  </head>
+  <body>
+    <Nav />
+    <Main />
+    <Footer />
+  </body>
+</html>

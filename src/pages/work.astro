@@ -1,0 +1,260 @@
+---
+import Footer from "../pages/footer.astro";
+import "../pages/style.css";
+import Nav from "../pages/nav.astro";
+import tshirt from "../assets/cafe/cafe-T-shirt-mockup.png";
+import CAFELOGO from "../assets/cafe/CAFE-LOGO-WHITE.png";
+import SatayL from "../assets/satay/SATAY_SATAY-Logo.png";
+import sataybg from "../assets/satay/cooking-image.jpeg";
+import noodlebg from "../assets/website/cooking-bg.jpeg";
+import text from "../assets/services/text.jpeg";
+import cafeB from "../assets/cafe/CAFE-LOGO-BLACK.png";
+import cafeV1 from "../assets/cafe/cafe-v1.png";
+import cafeV2 from "../assets/cafe/cafe-v2.png";
+import cafeV3 from "../assets/cafe/cafe-v3.png";
+import poster1 from "../assets/cafe/cafe-beer.png";
+import poster2 from "../assets/cafe/cafe-burger.png";
+import poster3 from "../assets/cafe/cafe-shake.png";
+import farmfig1 from "../assets/farm/farm-figma.png";
+import farmBgImage from "../assets/farm/farm-bg-image.avif";
+import farmFigma from "../assets/farm/farm-figma.png";
+import farmLogoSticker from "../assets/farm/farm-logo.-Sticker.png";
+import farmMockup1 from "../assets/farm/farm-mockup1.png";
+import farmMockup2 from "../assets/farm/farm-mockup2.png";
+import farmMockup3 from "../assets/farm/farm-mockup3.png";
+import farmWebflow1 from "../assets/farm/farm-webflow1.png";
+import farmWebflow2 from "../assets/farm/farm-webflow2.png";
+import farmWebflow3 from "../assets/farm/farm-webflow3.png";
+import farmWebflow4 from "../assets/farm/farm-webflow4.png";
+import farmFooter from "../assets/farm/FOOTER.jpg";
+import redgumBatterySpecs from "../assets/redgum/redgum-battery-specs.png";
+import redgumCushpack from "../assets/redgum/redgum-cushpack.png";
+import redgumCushpack2 from "../assets/redgum/redgum-cushpack2.png";
+import redgumIkon from "../assets/redgum/redgum-ikon.png";
+import redgumInfosheet1 from "../assets/redgum/redgum-infosheet1.png";
+import redgumInfosheet2 from "../assets/redgum/redgum-infosheet2.png";
+import redgumPrintsign from "../assets/redgum/redgum-printsign.png";
+import redgumWall from "../assets/redgum/redgum-wall.png";
+import logo from "../assets/heads-up/hu-logo.png";
+import site1 from "../assets/heads-up/hu-site1.png";
+import site2 from "../assets/heads-up/hu-site2.png";
+import versions from "../assets/heads-up/hu-versions.png";
+import wireframe1 from "../assets/heads-up/hu-wireframe.png";
+import wireframe2 from "../assets/heads-up/hu-wireframe2.png";
+import greyV1 from "../assets/heads-up/GREY V1.png";
+import greyV2 from "../assets/heads-up/Grey V2.png";
+import bookletPage01 from "../assets/Red-Jap/MCKENNA_FINN_BOOKLET_Page_01.tiff";
+import bookletPage03 from "../assets/Red-Jap/MCKENNA_FINN_BOOKLET_Page_03.tiff";
+import mockup2 from "../assets/Red-Jap/MCKENNA_FINN_MOCKUP2.jpg";
+import mockup3 from "../assets/Red-Jap/MCKENNA_FINN_MOCKUP3.jpg";
+
+import noodlebarFooter from "../assets/website/nodolebar-footer.png";
+import noodlebarBento from "../assets/website/noodlebar-bento.png";
+import noodlebarBg from "../assets/website/noodlebar-bg.png";
+import noodlebarLocal from "../assets/website/noodlebar-local.png";
+import noodlebarMenu from "../assets/website/noodlebar-menu.png";
+import noodlebarVidscreenshot from "../assets/website/noodlebar-vidscreenshot.png";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>work</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../pages/scripts/script.js"></script>
+  </head>
+  <div>
+    <Nav />
+    <!-- ============ MY WORK (image-heavy gallery) ============ -->
+    <div class="mywork-hero">
+      <div class="wrap">
+        <span class="eyebrow">Portfolio</span>
+        <h2>My Work</h2>
+      </div>
+    </div>
+    <div id="mywork">
+      <div class="wrap">
+        <div id="redgum">
+          <div class="mw-block">
+            <div class="mw-block-head">
+              <h3>Redgum · Designer</h3>
+              <p id="work-text" style="max-width:540px">
+                Lead Designer at Redgum, I owned the visual output across the
+                brand and its sister companies, including Ikon and ScooterX. I
+                shot product imagery and designed product sheets, catalogues,
+                signage, a full van wrap, and large-scale murals. The work shown
+                here is a selection of a much broader body of design produced
+                across the group.
+              </p>
+              <span class="desc">Web &amp; Interaction <b>· 2024</b></span>
+            </div>
+            <div class="gallery">
+              <div class="tile tall cover">
+                <img src={redgumBatterySpecs.src} />
+              </div>
+              <div class="tile wide"><img src={redgumCushpack.src} /></div>
+              <div class="tile tall"><img src={redgumCushpack2.src} /></div>
+              <div class="tile cover"><img src={redgumInfosheet1.src} /></div>
+              <div class="tile cover"><img src={redgumPrintsign.src} /></div>
+              <div class="tile cover"><img src={redgumInfosheet2.src} /></div>
+              <div class="tile big cover"><img src={redgumWall.src} /></div>
+              <div class="tile cover"><img src={redgumPrintsign.src} /></div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap">
+          <div class="mw-block">
+            <div class="mw-block-head">
+              <h3>Tafe · Freelance</h3>
+              <p id="work-text">
+                Freelance & Study Alongside freelance design work, I studied at
+                TAFE, earning my Certificate IV in Print Communications followed
+                by a Diploma and Advanced Diploma in Graphic Design. This period
+                shaped my foundations across both print and digital, balancing
+                hands-on client projects with formal training. The work shown
+                here is a mix of freelance commissions and pieces developed
+                throughout my studies.
+              </p>
+              <span class="desc">Product Design <b>· 2025</b></span>
+            </div>
+            <div class="gallery">
+              <div class="tile big">
+                <img src={logo.src} alt="Heads Up logo" />
+              </div>
+              <div class="tile cover tall">
+                <img
+                  style="object-position:-150px"
+                  src={site1.src}
+                  alt="Site design 1"
+                />
+              </div>
+              <div class="tile cover">
+                <img src={greyV1.src} alt="Grey jacket v1" />
+              </div>
+              <div class="tile cover">
+                <img src={greyV2.src} alt="Grey jacket v2" />
+              </div>
+              <div class="tile cover tall">
+                <img
+                  style="object-position:-145px"
+                  src={site2.src}
+                  alt="Site design 2"
+                />
+              </div>
+              <div class="tile tall cover">
+                <img src={wireframe1.src} alt="Wireframe 1" />
+              </div>
+              <div class="tile tall cover">
+                <img src={wireframe2.src} alt="Wireframe 2" />
+              </div>
+              <div class="tile cover">
+                <img src={versions.src} alt="Version explorations" />
+              </div>
+            </div>
+            <div class="gallery" style="padding-top:rem;">
+              <div class="tile wide cover">
+                <img
+                  style="object-position: center;"
+                  src={mockup2.src}
+                  alt="Booklet mockup 2"
+                />
+              </div>
+              <div class="tile cover">
+                <img src={mockup3.src} alt="Booklet mockup 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="coffee-burger">
+          <div class="mw-block">
+            <div class="mw-block-head">
+              <h3>Cafe & Burgers</h3>
+              <p id="work-text">
+                Redesign for Cafe & Burger, a neighbourhood cafe in Perth. I
+                started with hand-drawn concept sketches, developed them into
+                refined design concepts in Illustrator, then built out
+                wireframes and the full visual look for the website in Figma,
+                carrying a cohesive identity from initial idea through to a
+                polished digital design.
+              </p>
+              <span class="desc">Product Design <b>· 2025</b></span>
+            </div>
+          </div>
+          <div class="gallery">
+            <div class="tile big"><img src={cafeB.src} /></div>
+            <div class="tile tall"><img src={tshirt.src} /></div>
+            <div class="tile"><img src={cafeV1.src} /></div>
+            <div class="tile"><img src={cafeV2.src} /></div>
+            <div class="tile"><img src={cafeV3.src} /></div>
+            <div class="tile tall"><img src={poster1.src} /></div>
+            <div class="tile tall"><img src={poster2.src} /></div>
+            <div class="tile tall"><img src={poster3.src} /></div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div id="scoops">
+          <div class="mw-block">
+            <div class="mw-block-head">
+              <h3>Scoops Farm</h3>
+              <p id="work-text">
+                Redesign for Scoops Farm, a farm in South West Australia whose
+                website needed fresh attention. I recreated the logo, developed
+                a new brand style around it, built wireframes in Figma, then
+                designed and developed the full website in Webflow — taking the
+                project end to end from brand identity through to a live-ready
+                build.
+              </p>
+              <span class="desc">Brand Identity <b>· 2024</b></span>
+            </div>
+            <div class="gallery">
+              <div class="tile tall cover"><img src={farmFigma.src} /></div>
+              <div class="tile cover"><img src={farmLogoSticker.src} /></div>
+              <div class="tile cover"><img src={farmMockup3.src} /></div>
+              <div class="tile cover"><img src={farmWebflow2.src} /></div>
+              <div class="tile tall cover"><img src={farmMockup2.src} /></div>
+              <div class="tile cover"><img src={farmWebflow3.src} /></div>
+              <div class="tile cover"><img src={farmWebflow4.src} /></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div id="noodle-bar">
+          <div class="mw-block">
+            <div class="mw-block-head">
+              <h3>Noodel Bar</h3>
+              <p id="work-text">
+                Redesign for Scoops Farm, a farm in South West Australia whose
+                website needed fresh attention. I recreated the logo, developed
+                a new brand style around it, built wireframes in Figma, then
+                designed and developed the full website in Webflow — taking the
+                project end to end from brand identity through to a live-ready
+                build.
+              </p>
+              <span class="desc">Brand Identity <b>· 2024</b></span>
+            </div>
+            <div class="gallery">
+              <div class="tile cover"><img src={noodlebarBg.src} /></div>
+              <div class="tile cover"><img src={noodlebarBento.src} /></div>
+              <div class="tile cover"><img src={noodlebarLocal.src} /></div>
+              <!-- <div class="tile tall cover">
+              <img src={noodlebarVidscreenshot.src} />
+              </div> -->
+              <div class="tile cover"><img src={noodlebarMenu.src} /></div>
+              <div class="tile big cover">
+                <img src={noodlebarFooter.src} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  </div>
+
+</html>
