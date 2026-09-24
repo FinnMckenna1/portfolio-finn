@@ -588,3 +588,8 @@ overflow: hidden;
 .howto-card h3{font-size:18px;letter-spacing:-.01em;margin-top:8px;font-weight:700}
 .howto-card p{font-size:13.5px;line-height:1.5;color:var(--muted);margin-top:8px}
 @media (max-width:720px){.howto-card{flex-basis:200px}}
+
+
+.nl-badge{
+  display: none;
+}
