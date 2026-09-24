@@ -590,6 +590,6 @@ overflow: hidden;
 @media (max-width:720px){.howto-card{flex-basis:200px}}
 
 
-.nl-badge{
+.nl-wrap{
   display: none;
 }
